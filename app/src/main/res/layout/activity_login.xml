@@ -35,6 +35,7 @@
         android:layout_marginLeft="25dp"
         android:layout_marginTop="30dp"
         android:src="@drawable/left_arrow"
+        android:onClick="toMain"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -72,6 +73,7 @@
         android:background="@drawable/btn_white_small"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Login"
+        android:onClick="toProfile"
         android:textAllCaps="false"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
@@ -85,6 +87,7 @@
         android:background="@drawable/btn_red_medium"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Register"
+        android:onClick="toRegister"
         android:textAllCaps="false"
         android:textColor="#FFF"
         app:layout_constraintStart_toEndOf="@+id/button3"
