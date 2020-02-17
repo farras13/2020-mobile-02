@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MarketplaceLayout</string>
     <string-array name="Country">
+        <item>Country</item>
         <item>Indonesia</item>
         <item>Japan</item>
         <item>India</item>
